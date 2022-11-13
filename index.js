@@ -48,9 +48,9 @@ mongoose.connect(process.env.MONGO_URL)
   console.log(err);
 })
 
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || 8000, () => {
   // dbconnect.then(x=> console.log('dbconnected and server started at http://localhost:8080'))
 //   console.log(`Example app listening on port ${port}`)
 
-  console.log("server started at http://localhost:8080");
+  console.log("server started at http://localhost:8000");
 })
